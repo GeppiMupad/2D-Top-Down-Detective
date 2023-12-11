@@ -7,10 +7,9 @@ public class ButtonManager : MonoBehaviour
 {
     public void One()
     {     
-            QuestionManager.button = 1;              
+            QuestionManager.button = 1;  //Wenn die erste Frage ausgewählt wurde dann QuestionManager.button = 1 und somit wird Antwort 1 getriggert      
     }
        
-
     public void Two()
     {
             QuestionManager.button = 2;
@@ -19,6 +18,11 @@ public class ButtonManager : MonoBehaviour
     public void Three()
     {
             QuestionManager.button = 3;
+    }
+
+    public void Repead()
+    {
+        DialogManager.shouldRepead = true;
     }
 
     public void Quit()
@@ -30,7 +34,7 @@ public class ButtonManager : MonoBehaviour
        //muss noch gefixxt werden 
         Conversation.stopMove = false;
         QuestionManager.setActive = false;
-
+        Conversation.showConvo = false;
     }
 
 }
