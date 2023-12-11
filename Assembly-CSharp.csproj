@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AEE64584-3280-BBFA-5218-B4B3E04F0B15}</ProjectGuid>
+    <ProjectGuid>{F2612211-D24E-E442-17C6-107E8673A322}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,7 +60,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\DialogManager.cs" />
     <Compile Include="Assets\ButtonManager.cs" />
+    <Compile Include="Assets\Scripts\Items.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\ScriptableDialogue.cs" />
     <Compile Include="Assets\Scripts\Conversation.cs" />
     <Compile Include="Assets\QuestionManager.cs" />
   </ItemGroup>
